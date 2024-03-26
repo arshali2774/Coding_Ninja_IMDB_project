@@ -6,7 +6,7 @@ function getQueryParam(param) {
 
 const imdbID = getQueryParam('imdbID');
 
-const API = `http://www.omdbapi.com/?apikey=92442014&i=${imdbID}`;
+const API = `https://www.omdbapi.com/?apikey=92442014&i=${imdbID}`;
 // fetch data
 const fetchData = async () => {
   try {

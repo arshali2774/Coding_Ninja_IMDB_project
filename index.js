@@ -95,7 +95,7 @@ form.addEventListener('submit', async function (event) {
   }
 });
 
-const API = `http://www.omdbapi.com/?apikey=92442014&s=`;
+const API = `https://www.omdbapi.com/?apikey=92442014&s=`;
 // fetch data
 const fetchData = async (searchTerm) => {
   try {
